@@ -1,0 +1,47 @@
+Step-by-Step Instructions
+Clone the Project
+
+Clone the project repository to your local machine.
+Install Dependencies
+
+Navigate to the frontend directory and run:
+bash
+Copy code
+npm install
+Navigate to the backend directory and run:
+bash
+Copy code
+npm install
+Set Up Environment Variables
+
+In the backend directory, create a .env file.
+Add the necessary environment variables as specified in the project documentation.
+Start the Frontend
+
+In the frontend directory, run the command:
+bash
+Copy code
+npm run dev
+Start the Backend
+
+In the backend directory, run the command:
+bash
+Copy code
+node index.js
+Open the Application in Browser
+
+Open your browser and navigate to the application route.
+Register Accounts
+
+Go to the registration route and create two accounts:
+Account 1 in the first browser tab.
+Account 2 in the second browser tab.
+Send Friend Request
+
+In the first tab, log in with Account 1 and send a friend request to Account 2 using the username created in the second tab.
+Accept Friend Request
+
+In the second tab, log in with Account 2, go to the "Friend Requests" section, and accept the friend request from Account 1.
+Start Chatting
+
+Once the friend request is accepted, start a chat between Account 1 and Account 2.
